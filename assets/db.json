@@ -1,0 +1,51 @@
+{
+  "santos": [
+    {
+      "nombre": "Shiryu",
+      "constelacion": "Dragonson",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "nombre": "Hyoga",
+      "constelacion": "Cisne"
+    },
+    {
+      "id": 4,
+      "nombre": "Andromeda",
+      "constelacion": "Shun"
+    },
+    {
+      "id": 5,
+      "nombre": "Ikki",
+      "constelacion": "Fenix"
+    },
+    {
+      "nombre": "Manigoldo",
+      "constelacion": "Cancer",
+      "id": 6
+    }
+  ],
+  "dioses": [
+    {
+      "id": 1,
+      "nombre": "Ahena",
+      "de": "Tierra"
+    },
+    {
+      "id": 2,
+      "nombre": "Poseidon",
+      "de": "Mar"
+    },
+    {
+      "id": 3,
+      "nombre": "Hades",
+      "de": "Inframundo"
+    },
+    {
+      "id": 4,
+      "nombre": "Zeus",
+      "de": "Cielo"
+    }
+  ]
+}

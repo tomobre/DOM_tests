@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html data-dark>
+
+<head>
+
+	<link rel="stylesheet" href="./css/DOM-ejercicios.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css">
+</head>
+
+<body data-dark>
+
+	<header data-dark class="header">
+
+		<h1>EJERCICIOS DEL DOM</h1>
+
+	</header>
+	<div id="ConectOFF"><b>NO HAY CONEXION A INTERNET</b></div>
+	<div id="ConectON"><b>CONEXION REESTABLECIDA</b>
+	</div>
+	<button class=" panel-btn hamburger hamburger--vortex" type="button">
+		<span class="hamburger-box">
+			<span class="hamburger-inner"></span>
+		</span>
+	</button>
+	<button class="scrollUpButton is-hidden" type="button">&#11014;
+	</button>
+	<button id="Dark-button" class="DarkNormal" type="button">🌙
+	</button>
+	<aside class="panel">
+		<nav id="NavBar">
+			<a href="#Secc1" data-scroll-spy>Reloj Digital y alarma sonora</a>
+			<a href="#Secc2" data-scroll-spy>Eventos del teclado</a>
+			<a href="#Secc3" data-scroll-spy>Countdown</a>
+			<a href="#Secc4" data-scroll-spy>Responsive design</a>
+			<a href="#Secc5" data-scroll-spy>responsive design tester</a>
+			<a href="#Secc6" data-scroll-spy>Deteccion de dispositivos (user agent)</a>
+			<a href="#Secc7" data-scroll-spy>Video request</a>
+			<a href="#Secc8" data-scroll-spy>Geolocalizacion</a>
+			<a href="#Secc9" data-scroll-spy>Filtros de busqueda</a>
+			<a href="#Secc10" data-scroll-spy>Sorteo digital</a>
+			<a href="#Secc11" data-scroll-spy>Responsive slider</a>
+			<a href="#Secc12" data-scroll-spy>Video con Intersection Observer</a>
+			<a href="#Secc13" data-scroll-spy>Narrador</a>
+
+		</nav>
+	</aside>
+
+
+	<main id="main">
+		<section id="Secc1" class="Secciones" data-scroll-spy>
+			<h2 id="TitReloj" class="TitSecciones">Reloj Digital y alarma sonora</h2>
+			<h2 class=reloj></h2>
+			<div></div>
+			<button class="InReloj">Iniciar Reloj</button>
+			<button class="DetReloj">Detener Reloj</button>
+			<button class="InAlarma">Iniciar Alarma</button>
+			<button class="DetAlarma">Detener Alarma</button>
+			</div>
+		</section>
+		<section id="Secc2" class="Secciones" data-scroll-spy>
+			<h2 class="TitSecciones">Eventos del teclado</h2>
+			<div id="entornoBolita">
+				<div id="bolita">
+
+				</div>
+
+			</div>
+		</section>
+		<section id="Secc3" class="Secciones" data-scroll-spy>
+			<h2 class="TitSecciones">Countdown</h2>
+			<h2 id="countdown"></h2>
+		</section>
+		<section id="Secc4" class="Secciones" data-scroll-spy>
+			<h2 class="TitSecciones">Responsive design</h2>
+			<div id="youtube"></div>
+			<div id="gmaps"></div>
+
+
+
+		</section>
+		<section id="Secc5" class="Secciones" data-scroll-spy>
+			<h2 class="TitSecciones">Responsive design tester</h2>
+			<form>
+				<input type="url" id="url" placeholder="URL" required><br>
+				<input type="text" id="ancho" placeholder="Ancho" required><br>
+				<input type="text" id="alto" placeholder="Alto" required><br>
+				<input type="submit" id="abrir" value="Probar" required>
+				<input type="submit" id="close" value="Cerrar" required>
+			</form>
+		</section>
+		<section id="Secc6" class="Secciones" data-scroll-spy>
+			<h2 class="TitSecciones">Deteccion de dispositivos (user agent)</h2>
+			<div id="user-agent"></div>
+		</section>
+		<section id="Secc7" class="Secciones" data-scroll-spy>
+			<h2 class="TitSecciones">Video request</h2>
+			<video id="videoReq" src=""></video>
+		</section>
+		<section id="Secc8" class="Secciones" data-scroll-spy>
+			<h2 class="TitSecciones">Geolocalizacion</h2>
+			<div id="geo"></div>
+
+		</section>
+		<section id="Secc9" class="Secciones" data-scroll-spy>
+			<h2 class="TitSecciones">Filtros de busqueda</h2>
+			<input class="card-filter" type="search" placeholder="Buscar...">
+			<article class="cards">
+				<figure class="card">
+					<img src="https://placeimg.com/200/200/tech" alt="tech">
+					<figcaption class="figcaption">TECH</figcaption>
+				</figure>
+				<figure class="card">
+					<img src="https://placeimg.com/200/200/animals" alt="animals">
+					<figcaption>ANIMALS</figcaption>
+				</figure>
+				<figure class="card">
+					<img src="https://placeimg.com/200/200/people" alt="people">
+					<figcaption>people</figcaption>
+				</figure>
+				<figure class="card">
+					<img src="https://placeimg.com/200/200/arch" alt="arch">
+					<figcaption>arch</figcaption>
+				</figure>
+				<figure class="card">
+					<img src="https://placeimg.com/200/200/nature" alt="nature">
+					<figcaption>nature</figcaption>
+				</figure>
+
+			</article>
+		</section>
+		<section id="Secc10" class="Secciones" data-scroll-spy>
+			<h2 class="TitSecciones">Sorteo digital</h2>
+			<ul>
+				<li id="1">Marisa</li>
+				<li id="2">Cecilia</li>
+				<li id="3">Consuelo</li>
+				<li id="4">Laura</li>
+				<li id="5">Buendi</li>
+				<li id="6">Agustin</li>
+				<li id="7">Ariel</li>
+				<li id="8">Oscar</li>
+				<li id="9">Tomas</li>
+				<li id="10">Bingo</li>
+			</ul>
+			<button id="sortNow">Obtener ganador</button>
+		</section>
+		<section id="Secc11" class="Secciones" data-scroll-spy>
+			<h2 class="TitSecciones">Responsive slider</h2>
+			<div class="slider">
+				<div class="slider-slides">
+					<div class="slider-slide active">
+						<img src="https://placeimg.com/400/400/animals" alt="">
+					</div>
+					<div class="slider-slide">
+						<h4>Diapositiva 2</h4>
+					</div>
+					<div class="slider-slide">
+						<img src="https://placeimg.com/400/400/nature" alt="">
+					</div>
+					<div class="slider-slide">
+						<h4>Diapositiva 4</h4>
+					</div>
+				</div>
+				<div class="slider-btns">
+					<a class="prev" href="#">&laquo</a>
+					<a href="#" class="next">&raquo</a>
+				</div>
+			</div>
+
+		</section>
+		<section id="Secc12" class="Secciones" data-scroll-spy>
+			<h2 class="TitSecciones">Video con intersection Observer</h2>
+			<video id="videoInter" src="./assets/cumple6.mov" muted data-smart-video loop></video>
+		</section>
+		<section id="Secc13" class="Secciones" data-scroll-spy>
+			<h2 class="TitSecciones">Narrador</h2>
+			<select id="listVoices">
+			</select>
+
+			<input id="textToNarrate" type="text" placeholder="Ingresa texto para leer">
+			<button id="actNarrate" type="submit">Leer texto</button>
+
+		</section>
+	</main>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<script src="./js/Ej_DOM_index.js" type="module">
+	</script>
+</body>
+
+</html>
